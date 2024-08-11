@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'/><link href="https://feeldreams.github.io/duluaku/style.css" rel="stylesheet" type="text/css" />
+
+<head>
+<title>Script HTML Pergi ke Tempat Parkir</title>
+<meta name="description" content="Pergi ke Tempat Parkir Mengambil Sepatu">
+<link rel="icon" type="image/x-icon" href="https://www.palingit.com/favicon.ico">
+<!-- 
+  
+  Made with love by Rayys!
+  
+     Blog: https://PalingIT.com
+     Instagram: @rayyarrr
+     TikTok: @rayy4r
+     Email: rayyar0703@gmail.com
+     
+  Thanks to all <3
+  
+-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+   
+   
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="https://feeldreams.github.io/wp11.jpg" id="wallpaper"/>
+   </div>
+
+   <div id='Content'>
+   	
+     <div id="suratin">
+       <!-- Tombol Surat --><img src="https://rayyscoding.github.io/envelope.png"/>
+     </div>
+     <p id="ket">pencet ini ayang aku cantikkk</p>
+   
+     <div>
+         <!-- Stiker untuk Konten -->
+         <img src="https://feeldreams.github.io/peachhello.gif" id="fotoakhir"/>
+         <img src="https://feeldreams.github.io/peachgetar.gif" id="fotoakhir1"/>
+         <img src="https://feeldreams.github.io/peachjoget.gif" id="fotoakhir2"/>
+         <img src="https://feeldreams.github.io/peachgaruk.gif" id="fotoakhir3"/>
+         <img src="https://feeldreams.github.io/peachhoam.gif" id="fotoakhir4"/>
+         <img src="https://feeldreams.github.io/peach22.gif" id="fotoakhir5"/>
+         <img src="https://feeldreams.github.io/peachktw.gif" id="fotoakhir6"/>
+
+         <img src="https://feeldreams.github.io/peachhoam.gif" id="fotoAkhir"/>
+     </div>
+     <div><blockquote id='bq'>
+  
+       <!-- Konten Penerapan -->
+       <p id="kalimat">ayang acuu cinta acuu</p>
+       <p id="kalimata">MAAPIIN AKUU YAAAAHHH</p>
+       <p id="kalimatb">CAYANGNYAAA AKUUUUU</p>
+       <p id="kalimatc">PACAR ACUUU LIDYAAA</p>
+       <p id="kalimatd">NDA BOLEEEE NGAMBEK YA AYANGGG</p>
+       <p id="kalimate">yayayayaaa sayaaaabggg</p>
+       <p id="kalimatf">maapin yaaah acuuu ya pwiis</p>
+       <p id="kalimatg"> :(( </p>
+
+       <!-- Konten Pertanyaan -->
+       <p id="kalimat2">maapiinn pokonyaaaaa T_T</p>
+
+       <!-- Konten Jawaban -->
+       <p id="kalimat3">jawabannya ayang: </p>
+       <p id="kalimatb3">ss inn jawabannya ayang ke wa aku  oceee:<< </p>
+     </blockquote></div>
+   
+     <!-- Tombol Multifungsi -->
+     <div id="Tombol">
+       <a id="By" onClick="multifungsi()">
+         <b id="tmbl">maapin :((</b>
+         <b id="tmbl2">jawab cinii</b>
+       </a>
+     </div>
+     
+   </div>
+
+<!-- Jangan Edit Bagian Ini --><script>
+  function mulaikonten() {
+                          setTimeout(fmketik1,500);setTimeout(mketik1,500);
+                          setTimeout(fmketik2,1600);setTimeout(mketik2,1600);
+                          setTimeout(fmketik3,2800);setTimeout(mketik3,2800);
+                          setTimeout(fmketik4,4500);setTimeout(mketik4,4500);
+                          setTimeout(fmketik5,5400);setTimeout(mketik5,5400);
+                          setTimeout(fmketik6,7250);setTimeout(mketik6,7250);
+                          setTimeout(fmketik7,8600);setTimeout(mketik7,8600);
+                          setTimeout(fmketik8,10350);setTimeout(mketik8,10350);
+                         }
+  
+  async function menuju(){await swals.fire('ss inn jawabannua ubub ke wa aku :<<', 'success');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;Tombol.style="margin-top:15px;opacity:1;transform: scale(1);";}
+
+  const swalst = Swal.mixin({timer: 2777, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 100,}); ftom=0;jikatom=0;ftganti=0;fungsi=0; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageWidth: 100, imageHeight: 100,}); const body = document.querySelector("body");function createHeart() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);
+
+   async function jawab(){
+           var { value: jawaban } = await swals.fire({
+               title: 'mapapiinn poknyasdasdghkadh', input: 'text', allowOutsideClick: false, showCancelButton: false,
+           });
+           if(jawaban && jawaban.length < 19){
+           	window.jawaban = jawaban;
+               pesanwhatsapp = jawaban;
+               balasan = jawaban;
+               otomatis3();setTimeout(stakhir,1000);
+           } else {
+               await swals.fire('daboleee kososooongg');jawab();
+           }
+       }
+</script>
+<script src="https://feeldreams.github.io/duluaku/script.js"></script>
+<!-- Sampai Sini -->
+</body>
+</html>
